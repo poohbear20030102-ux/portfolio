@@ -2,7 +2,7 @@ export const profile = {
   name: "Tianlei Tang",
   title: "Senior Backend Engineer",
   location: "Bogor Regency, West Java, ID",
-  email: "tianleitang@gmail.com",
+  email: "tianleitang05@gmail.com",
   phone: "+1 (662) 254-4955",
   tagline: "Systems that don't fall over.",
 };
