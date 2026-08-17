@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Instrument Serif", ui-serif, Georgia, serif;
+
+  --color-ink: #14110d;
+  --color-ink-soft: #211b14;
+  --color-ink-line: rgba(247, 242, 233, 0.14);
+
+  --color-cream: #f7f2e9;
+  --color-cream-dim: #efe6d3;
+  --color-cream-line: rgba(20, 17, 13, 0.12);
+
+  --color-amber: #c8813a;
+  --color-amber-soft: #e7c088;
+  --color-rust: #a8461f;
+
+  --animate-marquee: marquee 32s linear infinite;
+
+  @keyframes marquee {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+  }
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: var(--color-cream);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  ::selection {
+    background: var(--color-amber);
+    color: var(--color-ink);
+  }
+}
+
+@layer utilities {
+  .font-serif-italic {
+    font-family: var(--font-serif);
+    font-style: italic;
+  }
+
+  .container-px {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+  @media (min-width: 640px) {
+    .container-px {
+      padding-left: 2.5rem;
+      padding-right: 2.5rem;
+    }
+  }
+}
