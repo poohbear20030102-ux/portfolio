@@ -17,7 +17,7 @@ export default function Navbar() {
     <header className="sticky top-0 z-50 border-b border-amber/25 bg-ink">
       <nav className="mx-auto flex max-w-6xl items-center justify-between container-px py-4">
         <a href="#top" className="font-sans text-xs font-bold uppercase tracking-[0.25em] text-cream">
-          Frank Tang
+          Tianlei Tang
         </a>
 
         <ul className="hidden items-center md:flex">

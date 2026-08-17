@@ -1,6 +1,5 @@
 export const profile = {
-  name: "Frank Tang",
-  altName: "Tianlei Tang",
+  name: "Tianlei Tang",
   title: "Senior Backend Engineer",
   location: "Bogor Regency, West Java, ID",
   email: "franktang700@gmail.com",
