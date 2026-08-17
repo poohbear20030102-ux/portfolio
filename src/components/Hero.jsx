@@ -33,7 +33,7 @@ export default function Hero() {
           >
             <p className="font-serif-italic text-2xl text-amber-soft sm:text-3xl">Senior Backend Engineer</p>
             <h1 className="mt-2 font-sans font-extrabold leading-[0.84] tracking-tight text-cream">
-              <span className="block text-[19vw] sm:text-[9.5rem] lg:text-[11rem]">FRANK</span>
+              <span className="block text-[19vw] sm:text-[9.5rem] lg:text-[11rem]">TIANLEI</span>
               <span
                 className="block text-[19vw] sm:text-[9.5rem] lg:text-[11rem]"
                 style={{ WebkitTextStroke: "2px #f7f2e9", color: "transparent" }}
